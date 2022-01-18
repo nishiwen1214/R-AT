@@ -1,2 +1,2 @@
 ## 下载BERT的预训练权重:
-- 谷歌官方地址:https://github.com/google-research/bert
+- HuggingFace地址:https://huggingface.co/bert-base-uncased/tree/main
