@@ -24,8 +24,8 @@ class Config(object):
         self.num_classes = len(self.class_list)                         # number of classes
         self.num_epochs = 5                                             # epoch
         self.batch_size = 32                                          # mini-batch size
-        self.pad_size = 70                                            # padding size
-        self.learning_rate = 5e-5                                       # learning_rate
+        self.pad_size = 128                                            # padding size
+        self.learning_rate = 2e-5                                       # learning_rate
         self.bert_path = './bert-base-uncased'
         self.tokenizer = BertTokenizer.from_pretrained(self.bert_path)
         self.hidden_size = 768
