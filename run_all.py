@@ -13,10 +13,10 @@ args = parser.parse_args()
 
 
 if __name__ == '__main__':
-    dataset = 'Datasets/data_SST'  # dataset
+    dataset = 'Datasets/IMDB'  # dataset
 
     model_name = args.model  # bert
-    x = import_module('models.' + model_name)
+    x = import_module('model.' + model_name)
     config = x.Config(dataset)
     np.random.seed(6)
     torch.manual_seed(6)
